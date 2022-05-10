@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+.table tr input {
+	width:60%;
+	
+}
+.table tr textarea, input, select {
+	border:1px solid #c0c0c0/* #DAE8FF */;
+	border-radius:5px;
+	/* background-color:#EFF5FF; */
+	background-color:#ffffff;
+}
+.table tr:nth-child(2) input{
+	width:30px;
+}
+.table tr:nth-child(5) input {
+	width:60px;
+}
+.table tr select {
+	width:120px;
+	text-align:center;
+}
+.table tr:nth-child(4) input {
+	width:40%;
+}
+.table tr:nth-child(7) input {
+	width:150px;
+}
+.table tr:nth-child(12) input, .table tr:nth-child(13) input {
+	width:100px;
+}
+.m_img {
+	width:228px;
+	height:200px;
+	margin-bottom:10px;
+}
+.m_img img{
+	width:228px;
+	height:200px;
+}
+
+#add_loc {
+	border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #4487F6;
+    color: #4487F6;
+    height: 30px;
+    line-height: 27px;
+}
+#add_loc:hover {
+	background-color:#4487F6;
+	color:white;
+}

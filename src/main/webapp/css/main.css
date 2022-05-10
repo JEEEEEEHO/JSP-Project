@@ -1,0 +1,124 @@
+main {
+	width:100%;
+	min-height: 524px;
+ 	margin-top:30px;
+}
+
+
+#sorting_box {
+	width:100%;
+}
+#sorting_box table {
+	width:40%;
+	margin:0 auto;
+	border:1px solid #8C8C8C;
+}
+#sorting_box table tr {
+	background-color:#ffffff;
+	height:30px;
+	font-size:15px;
+	line-height:30px;
+	
+}
+#sorting_box table th {
+	width:25%;
+	background-color:#c0c0c0;
+	color:black;
+}
+#sorting_box table td {
+	width:75%;
+	border-bottom:1px solid #c0c0c0;
+}
+#sorting_box table tr:nth-child(3) td {
+	border-bottom:0;
+}
+
+#sorting_box table input{
+	margin-left:10px;
+	border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #8C8C8C;
+    color: black;
+    height: 25px;
+    line-height: 25px;
+}
+
+#sorting_box table input:hover {
+	background-color:#c0c0c0;
+	font-weight:bold;
+}
+
+#sorting_box table select {
+	width:100px;
+	text-align:center;
+	margin-left:10px;
+	padding:3px;
+	border-radius:5px;
+	border:1px solid #8C8C8C;
+	margin-bottom:6px;
+}
+#sorting_box table tr:nth-child(4) input{
+	width:50px;
+	text-align:center;
+	
+} 
+#btn_submit td{
+	text-align:center;
+}
+#btn_submit input {
+	width:50px;
+}
+
+
+
+#class_box {
+	width:100%;
+	margin-top:50px;
+}
+
+#class_box li{width:228px;margin-left:15px;float:left;margin-bottom:20px;
+list-style-type:none;height:270px;margin-top:20px;}
+#class_box li:nth-child(5n+1){margin-left:0px;}
+#class_box img{width:100%;height:200px;}
+
+#img{width:100%;height:200px;border:1px solid #c0c0c0;}
+
+#class_box a:hover {
+	color:black;
+}
+.text_box{display:block;margin-top:10px;}
+.text_box h4,.text_box p{margin-bottom:10px;}
+.text_box h4 {line-height:20px;}
+.text_box p {font-size:12px;color:red;}
+.text_box p:hover {font-weight:bold;}
+
+#no_data {
+	width:350px;
+	margin:0 auto;
+	margin-top:100px
+}
+#no_data p {
+	width:100%;
+	text-align:center;
+	font-size:18px;
+	margin-top:210px;
+}
+
+#no_image {
+	width:100%;
+	height:200px;
+	text-align:center;
+	line-height:200px;
+	border:1px solid #c0c0c0;
+}
+
+/* #page_num a {
+	font-size:13px;
+}
+
+#page_num a:hover{
+	color:#888;
+} */
+
+
+

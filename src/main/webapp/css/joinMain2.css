@@ -1,0 +1,113 @@
+@charset "UTF-8";
+main {
+	width:70%;
+	min-height: 524px;
+ 	margin:0 auto;
+ 	
+}
+.condition textarea {
+	width:100%;
+}
+
+.helper {                 /* 헬퍼태그를 기준으로 정렬 */
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle; 
+}
+
+.condition1 {
+	width:100%;
+	margin-top:50px;
+}
+
+#parent input {
+	padding:5px;
+	font-size:15px;
+}
+
+.condition {
+	width:100%;
+}
+
+.child {
+  vertical-align: middle;  
+  display: inline-block;
+  margin: 0;     
+  padding: 0;
+  width:80px;
+  margin-left:180px;
+}
+.child{
+	font-size: 16px;
+}
+
+.c1{
+	margin-left:0;
+}
+.c2{
+  display: inline-block;
+  margin: 0;     
+  padding: 0;
+  width:80px;
+  font-size:16px;
+}
+
+select {
+	padding :0.5em;
+	width : 80px;
+}
+
+.main-h2{
+	margin-top: 45px;
+	margin-bottom: 20px;
+}
+
+.checkbox{
+	margin-top: 20px;
+	font-size: 14px;
+	zoom:1.1;
+}
+
+.main-h3{
+	margin-top: 45px;
+	margin-bottom: 20px;
+}
+
+table{
+	height : 0px;
+	border: 1px solid block;
+	border-collapse: collapse;
+ 	width:100%;
+}
+
+
+th,td{
+	border:1px solid;
+	padding: 15px 25px;
+	text-align:center;
+}
+
+th{
+	background-color: #EAEAEA;
+	width:280px;
+}
+
+.button{
+	padding: 10px;
+	cursor:pointer;
+	font-weight: normal;
+}
+.button_area {
+	width: 50%;
+	height: 56px;
+	display:block;
+	margin: 0 auto;
+	background-color: #3B82F6;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	float: center;
+	margin-top:50px;
+	
+}

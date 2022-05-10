@@ -1,0 +1,36 @@
+@charset "UTF-8";
+main {
+	width:100%;
+	min-height: 524px;
+	margin-top:30px;
+ 	margin:0 auto;
+ 	text-align: center;
+}
+
+.lastjoin{
+	/* margin-top: 100px; */
+	padding: 160px;
+	height: 524px;
+}
+
+p{
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 50px;
+  
+}
+
+.button_area {
+	width: 300px;
+	height: 56px;
+	display:block;
+	margin: 0 auto;
+	background-color: #3B82F6;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	float: center;
+	margin-top:50px;
+	
+}

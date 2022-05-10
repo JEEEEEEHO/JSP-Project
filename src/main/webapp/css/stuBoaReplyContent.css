@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+.section_com {
+		background-color:  white; /* section 영역 확인용 */
+		min-height:524px;
+		padding: 20px;
+	    padding-top: 50px;
+	    padding-left: 100px;
+		width: 80%;
+		height: auto;
+		width: 1120px;
+		}
+	main{
+		width: 1000px;
+	}
+	#ort th{
+	   border-bottom: 1px solid #444444;
+	   padding: 15px;
+	 }
+	#ort td{
+	 	border-bottom: 1px solid #444444;
+	 	padding: 10px;
+	 } 
+  	
+  	#reply{
+  		width: 876px;
+  		height: 29px;
+  		margin-right: 10px;
+  		font-size: 15px;
+  	}
+  	#ort {
+	    width: 100%;
+	    border-top: 3px solid #168;
+	    border-collapse: collapse;
+	}
+	.ret{
+		width: 100%;
+		border: 1px solid lightgray;
+		border-collapse: collapse;
+	}
+	#reh{
+		border-bottom: 1px solid lightgray;
+		padding:10px;
+		font-weight: bold;
+		color: #168;
+		width: 1000px;
+	}
+	#reb{
+		border-bottom: 1px solid lightgray;
+		padding-left: 0px;
+	}
+	#rec{
+		border-bottom: 1px solid lightgray;
+		padding:10px;
+	}
+	#rer{
+		border:1px solid;
+		padding:10px;
+	  }
+	#bs, #bw, #bn{
+		background: #f0f6f9;
+		color: #168;
+	}
+	#bw{
+		width: 200px;
+	}
+	#bn{
+		width: 150px;
+	  }
+	#bc{
+		 height: 200px;
+		 line-height: 20px;
+	}
+	#inp{
+		width: 880px;
+		margin-right: 10px;
+		height: 25px;
+	  }
+	#btnu, #btnd{
+		border-radius: 5px;
+		font-size: 15px;
+		background-color: #EEF1F4;
+		border: 2px solid lightgray;
+	}
+	#btnd{
+		margin-right: 10px;
+		margin-bottom: 3px;
+		
+	}
+	#btnu:hover #btnd:hover {
+		color: white;
+		background-color: #345997;
+		font-weight: bold;
+	}

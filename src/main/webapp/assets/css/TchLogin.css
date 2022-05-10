@@ -1,0 +1,125 @@
+body {
+    /* align-items: center;
+    flex-direction: row;
+    justify-content: center; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #EFF5FF;
+}
+.authentication-inner::before {
+    width: 148px;
+    height: 148px;
+    content: " ";
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    background-image: url('img/vector1.svg');
+    position: fixed;
+    z-index: 1;
+}
+.authentication-inner::after {
+    width: 239px;
+    height: 230px;
+    content: " ";
+    position: absolute;
+    bottom: -68px;
+    left: -46px;
+    background-image: url('img/vector2.png');
+    position: fixed;
+    z-index: 1;
+}
+.card {
+    margin: auto;
+    width: 360px;
+    height: auto;
+    padding: 24px;
+    background-color: white;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow:  0px 0px 15px 0 #E1E5EB;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+}
+img {
+    margin: 14px 0;
+}
+p {
+    font-size: 14px;
+    color:#5b5b5b;
+    margin-bottom: 30px;
+}
+.input {
+	width: 100%;
+	height: 40px;
+	margin: 10px 0;
+	padding-left: 25px;
+	border: 1px solid #eee;
+	box-sizing: border-box;
+	font-size: 16px;
+    border-radius: 8px;
+}
+.input:hover {
+    border: 1px solid #3B82F6;
+}
+.button_area {
+	width: 100%;
+	height: 40px;
+	margin: 20px 0;
+	background-color: #3B82F6;
+	color: #fff;
+	font-size: 16px;
+	border: none;
+    border-radius: 8px;
+    box-shadow: 0px 3px 3px 0 #A7C8FF;
+}
+.joingo {
+    width: 100%;
+	margin: 10px 0;
+	font-size: 13px;
+}
+.joingo a {
+	padding-bottom: 4px;
+	/* border-bottom: 1px solid #333; */
+	color: #3B82F6;
+    text-decoration: none;
+}
+.joingo a:hover {
+	color: #3B82F6;
+	border-bottom: 1px solid #3B82F6;
+}
+.button_area:hover{
+	background-color: #2565CC;
+}
+
+.input_id {
+	width: 72%;
+	height: 40px;
+	margin: 10px 0;
+	padding-left: 25px;
+	border: 1px solid #eee;
+	box-sizing: border-box;
+	font-size: 16px;
+    border-radius: 8px;
+    float: left;
+}
+/* 아이디 중복 체크 버튼 */
+.duplicateCheck {
+    width: 26%;
+	height: 40px;
+	margin: 10px 0;
+    display: inline;
+    float: right;
+    background-color: #3B82F6;
+	color: #fff;
+	font-size: 13px;
+	border: none;
+    border-radius: 8px;
+    /* box-shadow: 0px 3px 3px 0 #A7C8FF; */
+}
+.duplicateCheck:hover{
+	background-color: #2565CC;
+}
+

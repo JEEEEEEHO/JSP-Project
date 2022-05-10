@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+/* 섹션 영역 */
+.section_com {
+	width: 940px;
+	min-height:524px;
+	display: inline;
+	float: right;
+	background-color: white; /* section 영역 확인용 */
+	padding: 20px;
+}
+
+.label {
+	width: 103px;
+	float: left;
+}
+
+.i-box {
+	width : 300px;
+	height: 40px;
+	margin-left: 20px;
+	padding-left: 14px;
+	border: 1px solid #C6CDD7;
+	border-radius: 3px;
+}
+.i-box2 {
+	width : 140px;
+	height: 40px;
+	/* text-align: center; */
+	padding-left: 14px;
+	margin-left: 20px;
+	border: 1px solid #C6CDD7;
+	border-radius: 3px;
+}
+
+ul li {
+	line-height: 55px;
+}
+
+.ul_wrapping {
+	margin: 40px;
+}
+
+.i-box-reset {
+	width : 80px;
+	height: 40px;
+	text-align: center;
+	margin-top: 40px;
+	border-radius: 3px;
+	border: none;
+	background-color: #EEEFF2;
+	color: #667080;
+	font-weight: bold;
+}
+.i-box-reset:active {
+	background-color: #667080;
+	color: #EEEFF2;
+}
+.i-box-submit {
+	width : 120px;
+	height: 40px;
+	text-align: center;
+	margin-top: 40px;
+	border-radius: 3px;
+	border: none;
+	background-color: #3B82F6;
+	color: white;
+	font-weight: bold;
+}
+.i-box-submit:active {
+	background-color: #2565CC;
+}
+
+.go {
+	/* margin-top: 20px; */
+	font-size: 14px;
+}
+.go a {
+	padding-bottom: 4px;
+	border-bottom: 1px solid #3B82F6;
+	color: #3B82F6;
+}
+.go a:hover {
+	color: #3B82F6;
+	border-bottom: 3px solid #3B82F6;
+}

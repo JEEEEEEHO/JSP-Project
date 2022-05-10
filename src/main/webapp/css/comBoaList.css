@@ -1,0 +1,42 @@
+@charset "UTF-8";
+.section_com {
+		background-color:  white; /* section 영역 확인용 */
+		min-height:524px;
+		padding: 20px;
+	    padding-top: 50px;
+	    padding-left: 100px;
+		width: 80%;
+		height: auto;
+		width: 1120px;
+	}
+	.section_com h1{
+		padding-bottom: 20px;
+	}
+	table{
+		border-collapse: collapse;
+			border-top: 3px solid #168;
+		width: 1000px
+	}
+	.tab td{
+		padding-bottom: 10px;
+		border: 1px solid #ddd;
+		padding-top: 10px;
+	}
+	.tab th {
+		padding-bottom: 5px;
+		padding-top: 5px;
+		border: 1px solid #ddd;
+		color: #168;
+			background: #f0f6f9;
+	}
+	#ca{
+	 	padding-left: 10px;
+	 }
+	 #pn{
+		 text-align:center;
+		 padding-top:10px;
+		 width:1000px;
+	 }
+	 #pna{
+	 	padding-right:10px;
+	 }
